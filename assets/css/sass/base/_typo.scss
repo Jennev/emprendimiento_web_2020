@@ -18,9 +18,35 @@ font-family: 'Ubuntu', sans-serif;
     text-align: justify;
 }
 
-.encargado{
+.encargado {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 14px;
     margin: 8px;
+}
+
+.text-curso{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+}
+.mas-cursos {
+    background-color: var(--gris-oscuro);
+    color: var(--white);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.lista-cursos {
+    list-style: circle;
+    text-align: left;
+    color: blueviolet;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+
+
 }

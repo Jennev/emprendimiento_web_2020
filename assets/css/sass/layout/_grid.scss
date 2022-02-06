@@ -5,13 +5,12 @@
     grid-template-areas: "columna-1 columna-1" "columna-2 columna-2";
     gap: 1rem;
 }
-
+/* columna-1 */
 %columnas{
     border: 1.5px solid var(--sable);
     padding: 10px;
     margin: 5px;
     margin-bottom: 10px;
-    
 }
 .columna-1, .columna-2{
     @extend %columnas
@@ -27,4 +26,16 @@
 }
 .iconos, .text-i{
     margin: 4px;
+}
+
+/* columna-2 */
+
+.columna-2 {
+    text-align: center;
+}
+
+.development {
+    border-radius: 50%;
+    border: 1px solid var(--black);
+    margin: 8px;
 }

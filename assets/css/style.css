@@ -6,6 +6,7 @@
   --tangerina: #FFAF6D;
   --orange: #FFA500;
   --gris: #c1c1c1;
+  --gris-oscuro: #4f4e4e;
 }
 
 .bg-black {
@@ -37,6 +38,30 @@ font-family: 'Ubuntu', sans-serif;
   margin: 8px;
 }
 
+.text-curso {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.mas-cursos {
+  background-color: var(--gris-oscuro);
+  color: var(--white);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.lista-cursos {
+  list-style: circle;
+  text-align: left;
+  color: blueviolet;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .footer {
   background-color: var(--black);
   color: var(--white);
@@ -49,6 +74,7 @@ font-family: 'Ubuntu', sans-serif;
   gap: 1rem;
 }
 
+/* columna-1 */
 .columna-1, .columna-2 {
   border: 1.5px solid var(--sable);
   padding: 10px;
@@ -64,6 +90,17 @@ font-family: 'Ubuntu', sans-serif;
 
 .iconos, .text-i {
   margin: 4px;
+}
+
+/* columna-2 */
+.columna-2 {
+  text-align: center;
+}
+
+.development {
+  border-radius: 50%;
+  border: 1px solid var(--black);
+  margin: 8px;
 }
 
 .hero {
