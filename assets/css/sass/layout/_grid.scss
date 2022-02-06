@@ -1,5 +1,5 @@
 
-.grid{
+.grid {
     display: grid;
     grid-template: 1fr / 1fr 1fr;
     grid-template-areas: "columna-1 columna-1" "columna-2 columna-2";
@@ -7,9 +7,10 @@
 }
 
 %columnas{
-    border: 1px solid var(--sable);
+    border: 1.5px solid var(--sable);
     padding: 10px;
-    margin-bottom: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
     
 }
 .columna-1, .columna-2{
@@ -23,4 +24,7 @@
 }
 .html-css, .sass {
     @extend %cuadros
+}
+.iconos, .text-i{
+    margin: 4px;
 }

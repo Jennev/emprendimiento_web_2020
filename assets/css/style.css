@@ -16,6 +16,27 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 */
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  margin: 8px;
+}
+
+.text-p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 8px;
+  text-align: justify;
+}
+
+.encargado {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 8px;
+}
+
 .footer {
   background-color: var(--black);
   color: var(--white);
@@ -29,15 +50,20 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .columna-1, .columna-2 {
-  border: 1px solid var(--sable);
+  border: 1.5px solid var(--sable);
   padding: 10px;
-  margin-bottom: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
 }
 
 .html-css, .sass {
   border: 1px solid var(--gris);
   padding: 10px;
   margin-bottom: 5px;
+}
+
+.iconos, .text-i {
+  margin: 4px;
 }
 
 .hero {
