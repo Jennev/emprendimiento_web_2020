@@ -151,8 +151,14 @@ font-family: 'Ubuntu', sans-serif;
   align-items: center;
 }
 
-.hero .img-hero {
+.img-hero {
   height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-hero {
+    height: auto;
+  }
 }
 
 .formulario {
@@ -169,23 +175,4 @@ font-family: 'Ubuntu', sans-serif;
 
 .input {
   border-radius: 5px;
-}
-
-@media only screen and (min-width: 600px) {
-  .img-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-  }
-  .grid {
-    color: #fff;
-  }
-  .fotter {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 3rem;
-    gap: 1rem;
-    height: 100px;
-  }
 }

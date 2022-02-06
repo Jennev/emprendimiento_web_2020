@@ -3,10 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
+   
 }
 .img-hero{
-        height:300px;
-        
+    height:300px;
+
+    @media only screen and (max-width: 600px) {
+        height: auto;
+       
     }
+        
+}
