@@ -1,4 +1,26 @@
 
-.grilla{
+.grid{
     display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    grid-template-areas: "columna-1 columna-1" "columna-2 columna-2";
+    gap: 1rem;
+}
+
+%columnas{
+    border: 1px solid var(--sable);
+    padding: 10px;
+    margin-bottom: 5px;
+    
+}
+.columna-1, .columna-2{
+    @extend %columnas
+}
+
+%cuadros{
+    border: 1px solid var(--gris);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.html-css, .sass {
+    @extend %cuadros
 }
