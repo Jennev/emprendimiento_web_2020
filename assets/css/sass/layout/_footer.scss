@@ -3,5 +3,24 @@
 
     background-color: var(--black);
     color: var(--white);
-    
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
 }
+.item {
+    display: flex;
+    padding-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+

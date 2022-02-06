@@ -59,12 +59,38 @@ font-family: 'Ubuntu', sans-serif;
   color: blueviolet;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  font-size: 16px;
+}
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
   font-size: 14px;
+}
+
+.footer .p-derechos {
+  margin: 15px;
+  padding-left: 150px;
+}
+
+.footer .p-item {
+  margin: 15px;
 }
 
 .footer {
   background-color: var(--black);
   color: var(--white);
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.item {
+  display: flex;
+  padding-right: 150px;
 }
 
 .grid {
@@ -107,4 +133,20 @@ font-family: 'Ubuntu', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.formulario {
+  display: flex;
+  align-items: baseline;
+  margin: 15px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: var(--tangerina);
+  color: var(--gris-oscuro);
+}
+
+.input {
+  border-radius: 5px;
 }
