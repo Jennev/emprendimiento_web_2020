@@ -27,6 +27,12 @@ font-family: 'Ubuntu', sans-serif;
   margin: 8px;
 }
 
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 29px;
+  }
+}
+
 .text-p {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
@@ -35,11 +41,23 @@ font-family: 'Ubuntu', sans-serif;
   text-align: justify;
 }
 
+@media only screen and (max-width: 600px) {
+  .text-p {
+    font-size: 22px;
+  }
+}
+
 .encargado {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 14px;
   margin: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .encargado {
+    font-size: 20px;
+  }
 }
 
 .text-curso {
@@ -57,6 +75,12 @@ font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
 }
 
+@media only screen and (max-width: 600px) {
+  .mas-cursos {
+    font-size: 24px;
+  }
+}
+
 .lista-cursos {
   list-style: circle;
   text-align: left;
@@ -66,10 +90,22 @@ font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
 }
 
+@media only screen and (max-width: 600px) {
+  .lista-cursos {
+    font-size: 18px;
+  }
+}
+
 .footer {
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 20px;
+  }
 }
 
 .footer .p-derechos {
@@ -77,8 +113,22 @@ font-family: 'Ubuntu', sans-serif;
   padding-left: 150px;
 }
 
+@media only screen and (max-width: 600px) {
+  .footer .p-derechos {
+    margin: 15px;
+    padding: 15px 45px;
+    text-align: center;
+  }
+}
+
 .footer .p-item {
   margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer .p-item {
+    margin: 5px;
+  }
 }
 
 .footer {
@@ -92,9 +142,31 @@ font-family: 'Ubuntu', sans-serif;
   height: 100px;
 }
 
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+  }
+}
+
 .item {
   display: flex;
   padding-right: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .item {
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+  }
 }
 
 .grid {
@@ -102,6 +174,27 @@ font-family: 'Ubuntu', sans-serif;
   grid-template: 1fr / 1fr 1fr;
   grid-template-areas: "columna-1 columna-1" "columna-2 columna-2";
   gap: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.img-html, .img-sass {
+  height: 290px;
+  width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-html, .img-sass {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: auto;
+  }
 }
 
 /* columna-1 */
@@ -122,6 +215,12 @@ font-family: 'Ubuntu', sans-serif;
   margin: 4px;
 }
 
+@media only screen and (max-width: 600px) {
+  .iconos, .text-i {
+    font-size: 20px;
+  }
+}
+
 /* columna-2 */
 .columna-2 {
   text-align: center;
@@ -131,6 +230,24 @@ font-family: 'Ubuntu', sans-serif;
   border-radius: 50%;
   border: 1px solid var(--black);
   margin: 8px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .development {
+    height: 260px;
+  }
+}
+
+.gif {
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .gif {
+    height: 280px;
+    margin-bottom: 50px;
+  }
 }
 
 .header button {
@@ -167,10 +284,24 @@ font-family: 'Ubuntu', sans-serif;
   margin: 15px;
 }
 
+@media only screen and (max-width: 600px) {
+  .formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
 .button {
   border-radius: 5px;
   background-color: var(--tangerina);
   color: var(--gris-oscuro);
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    margin: 5px;
+  }
 }
 
 .input {

@@ -8,6 +8,10 @@ font-family: 'Ubuntu', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     margin: 8px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 29px;
+    }
 }
 
 .text-p{
@@ -16,6 +20,10 @@ font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
     margin: 8px;
     text-align: justify;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 22px;
+    }
 }
 
 .encargado {
@@ -23,6 +31,10 @@ font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     font-size: 14px;
     margin: 8px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 20px;
+    }
 }
 
 .text-curso{
@@ -30,6 +42,7 @@ font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     font-size: 18px;
     margin: 0px;
+    
 }
 .mas-cursos {
     background-color: var(--gris-oscuro);
@@ -37,6 +50,10 @@ font-family: 'Ubuntu', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     font-size: 16px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 24px;
+    }
 }
 
 .lista-cursos {
@@ -46,6 +63,10 @@ font-family: 'Ubuntu', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    
+    @media only screen and (max-width: 600px) {
+        font-size: 18px;
+    }
 }
 
 .footer {
@@ -53,13 +74,29 @@ font-family: 'Ubuntu', sans-serif;
     font-weight: 200;
     font-size: 14px;
 
+    @media only screen and (max-width: 600px) {
+        font-size: 20px;
+
+    }
+
     .p-derechos{
         margin: 15px;
         padding-left: 150px;
+
+        @media only screen and (max-width: 600px) {
+            margin: 15px;
+            padding: 15px 45px;
+            text-align: center;
+            
+            
+        }
     }
 
     .p-item {
         margin: 15px;
+        @media only screen and (max-width: 600px) {
+            margin: 5px;
+        }
 
     }
 
