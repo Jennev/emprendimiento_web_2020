@@ -1,0 +1,19 @@
+
+.header{
+
+
+    button{
+        border: none;
+        
+    }
+
+    i{
+        border: none;
+        
+        &:hover{
+           color: var(--tangerina);
+        }
+
+    }
+    
+}

@@ -13,6 +13,10 @@
   background-color: var(--black);
 }
 
+.navbar-dark {
+  color: var(--white);
+}
+
 /*
 font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif;
@@ -129,10 +133,26 @@ font-family: 'Ubuntu', sans-serif;
   margin: 8px;
 }
 
+.header button {
+  border: none;
+}
+
+.header i {
+  border: none;
+}
+
+.header i:hover {
+  color: var(--tangerina);
+}
+
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hero .img-hero {
+  height: 300px;
 }
 
 .formulario {
@@ -149,4 +169,23 @@ font-family: 'Ubuntu', sans-serif;
 
 .input {
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .img-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .grid {
+    color: #fff;
+  }
+  .fotter {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    gap: 1rem;
+    height: 100px;
+  }
 }
