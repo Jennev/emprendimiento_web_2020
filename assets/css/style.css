@@ -332,6 +332,10 @@ font-family: 'Ubuntu', sans-serif;
   color: var(--gris-oscuro);
 }
 
+.button:hover {
+  background-color: var(--white);
+}
+
 @media only screen and (max-width: 600px) {
   .button {
     margin: 5px;
@@ -340,4 +344,8 @@ font-family: 'Ubuntu', sans-serif;
 
 .input {
   border-radius: 5px;
+}
+
+.input:focus {
+  background-color: var(--tangerina);
 }
