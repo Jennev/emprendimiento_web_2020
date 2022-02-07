@@ -131,6 +131,15 @@ font-family: 'Ubuntu', sans-serif;
   }
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .footer {
   background-color: var(--black);
   color: var(--white);
@@ -224,6 +233,14 @@ font-family: 'Ubuntu', sans-serif;
 /* columna-2 */
 .columna-2 {
   text-align: center;
+}
+
+.columna-2 svg path.cog {
+  transform-origin: 79% 79%;
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .development {
