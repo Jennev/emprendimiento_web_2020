@@ -140,6 +140,15 @@ font-family: 'Ubuntu', sans-serif;
   }
 }
 
+@keyframes wave {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+}
+
 .footer {
   background-color: var(--black);
   color: var(--white);
@@ -236,9 +245,17 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .columna-2 svg path.cog {
-  transform-origin: 79% 79%;
+  transform-origin: 79% 80%;
   animation-name: spin;
-  animation-duration: 10s;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.columna-2 svg path.code {
+  transform-origin: 79% 79%;
+  animation-name: wave;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }

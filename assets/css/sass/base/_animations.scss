@@ -7,6 +7,15 @@
         transform: rotate(360deg);
     }
 
+}
 
+@keyframes wave {
+    0% {
+        transform: translateX(0px)
+    }
+   
+    50% {
+        transform: translateX(100px)
+    }
 
 }
